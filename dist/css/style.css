@@ -15,7 +15,6 @@ body {
 a {
     text-decoration: none;
     color: inherit;
-
 }
 
 .container {
@@ -137,3 +136,58 @@ a {
 .introduction__feature-1, .introduction__feature-2, .introduction__feature-3, .introduction__feature-4 {
     margin-bottom: 16px;
 }
+
+.rewiev {
+    padding: 20px 0;
+}
+
+.rewiev__title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 130%;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #1f1e1e;
+}
+
+.rewiev__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 22px;
+}
+
+.rewiev__item {
+    padding: 16px 22px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.rewiev__btn {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding: 15px 30px 15px;
+    background: rgb(84, 197, 248);
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-image: url('../img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 60px;
+}
+
+.footer__content {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;}
