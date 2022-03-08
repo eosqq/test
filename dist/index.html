@@ -7,6 +7,9 @@
     <title>Testing</title>
     <script src="./js/main.js"></script>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -24,16 +27,15 @@
                         <span>:</span>
                         <span id="timer-seconds">00</span>
                     </div>
-                    
                 </div>
                 <h1 class="header__title">
-                    Введение в веб-технологии
+                    Введение и обзор по Flutter'y
                 </h1>
                 <div class="header__content">
                     <p class="header__description">
-                        тут текст про введение в веб-технологии
+                        Flutter — новый инструмент от Google, позволяющий разработчикам писать кроссплатформенные приложения, которые можно запускать на различных системах Android и iOS.
                     </p>
-                    <div class="header__arrow-link">
+                    <div class="header__arrow">
                         <a class="header__arrow-link" href="#">
                             <img class="header__arrow-img" src="./img/down-arrow.png" alt=""> <!--указать путь к картинке-->>
                         </a>
@@ -42,5 +44,28 @@
             </div>
         </div>
     </header>
+    <div class="introduction">
+        <div class="container">
+            <h2 class="introduction__title">Введение</h2>
+            <div class="introduction__content">
+                <div class="introduction__content-left">
+                    <ul class="introduction__features">
+                        <li class="introduction__feature-1">Первая версия выпущена в 2015 году под названием «Sky», работала только для Android-приложений. Основная заявленная особенность — высокая графическая производительность (возможность отображения 120 кадров в секунду).</li>
+                        <li class="introduction__feature-2">Основные составляющие комплекта — платформа Dart, движок Flutter, библиотека Foundation, наборы виджетов и средства разработки (Flutter DevTools).</li>
+                        <li class="introduction__feature-3">Движок Flutter написан преимущественно на C++, поддерживает низкоуровневый рендеринг с помощью графической библиотеки Google Skia, имеет возможность взаимодействовать с платформозависимыми SDK под Android и iOS.</li>
+                        <li class="introduction__feature-4">Библиотека Foundation, написанная на языке Dart, содержит основные классы и методы для создания приложений Flutter и взаимодействия с движком Flutter.</li>
+                    </ul>
+                </div>
+                <div class="introduction__content-right">
+                    <a class="logo-phone" href="">
+                        <img class="logo-phone__img" src="./img/image-flutter.png" alt="">
+                    </a>
+                </div>
+            </div>
+                <a class="introduction__btn" href="https://surf.ru/flutter-iedinstviennaia-pravilnaia-krossplatforma/">
+                    Узнать больше
+                </a>
+        </div>
+    </div>
 </body>
 </html>
