@@ -1,1 +1,1 @@
-(()=>{"use strict";console.log("Hello World!")})();
+(()=>{"use strict";(e=>{let a,s=new Date("01.02.2022"),c=s.getFullYear(),r=s.getMonth(),b=s.getDate();switch(r){case 0:a="января";break;case 1:a="февраля";break;case 2:a="марта";break;case 3:a="апреля";break;case 4:a="мае";break;case 5:a="июня";break;case 6:a="июля";break;case 7:a="августа";break;case 8:a="сентября";break;case 9:a="октября";break;case 10:a="ноября";break;case 11:a="декабря"}console.log("Сегодня "+b+" "+a+" "+c+" года")})()})();

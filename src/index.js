@@ -1,3 +1,3 @@
-import one from './modules/one'
+import getDayInfo from './modules/getDayInfo'
 
-one()
+getDayInfo('01.02.2022')
